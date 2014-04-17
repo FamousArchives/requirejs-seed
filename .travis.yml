@@ -4,4 +4,5 @@ node_js:
 before_install:
   - currentfolder=${PWD##*/}
   - if [ "$currentfolder" != 'generator-famous' ]; then cd .. && eval "mv $currentfolder generator-famous" && cd generator-famous; fi
+  - npm install -g grunt bower
 
