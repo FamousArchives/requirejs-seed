@@ -1,7 +1,7 @@
 #famous seed
 > A seed project used to keep track of what yo famous scaffolds..
 
-[![Build Status](https://travis-ci.org/thealphanerd/famous-seed.svg?branch=master)](https://travis-ci.org/thealphanerd/famous-seed) [![Dependency Status](https://david-dm.org/thealphanerd/famous-seed.svg)](https://david-dm.org/thealphanerd/famous-seed) [![devDependency Status](https://david-dm.org/thealphanerd/famous-seed.svg)](https://david-dm.org/thealphanerd/famous-seed#info=devDependencies)
+[![Build Status](https://travis-ci.org/TheAlphaNerd/famous-seed.svg?branch=master)](https://travis-ci.org/TheAlphaNerd/famous-seed) [![Dependency Status](https://david-dm.org/TheAlphaNerd/famous-seed.svg)](https://david-dm.org/TheAlphaNerd/famous-seed) [![devDependency Status](https://david-dm.org/TheAlphaNerd/famous-seed.svg)](https://david-dm.org/TheAlphaNerd/famous-seed#info=devDependencies)
 
 ##Dependencies
 It is actually quite simple really
