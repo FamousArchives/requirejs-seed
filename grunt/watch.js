@@ -2,10 +2,6 @@
 module.exports = function(grunt) {
   'use strict';
   return {
-    bower: {
-      files: ['bower.json'],
-      tasks: ['bower']
-    },
     js: {
       files: ['<%= config.app %>/src/**/**.js'],
       tasks: ['lint'],
@@ -17,7 +13,7 @@ module.exports = function(grunt) {
       files: ['Gruntfile.js']
     },
     css: {
-      files: ['<%= config.app %>/css/{,*/}*.css'],
+      files: ['<%= config.app %>/styles/{,*/}*.css'],
       options: {
         livereload: grunt.option('livereload') || true
       }
@@ -34,9 +30,7 @@ module.exports = function(grunt) {
         livereload: '<%= connect.options.livereload %>'
       },
       files: [
-        '<%= config.app %>/{,*/}*.html',
-        '<%= config.app %>/styles/**/**.css',
-        '<%= config.app %>/images/{,*/}*'
+        '<%= config.app %>/content/**/**'
       ]
     }
   };
