@@ -2,33 +2,27 @@
 module.exports = function(grunt) {
   'use strict';
   return {
-    js: {
-      files: ['<%= config.app %>/src/**/**.js'],
-      tasks: ['lint'],
-      options: {
-        livereload: grunt.option('livereload') || true
-      }
+    options: {
+      livereload: grunt.option('livereload') || true
     },
     gruntfile: {
-      files: ['Gruntfile.js']
+      files: ['Gruntfile.js', 'grunt/**/**'],
+      options: {
+        reload: true
+      }
+    },
+    js: {
+      files: ['<%= config.app %>/src/**/**.js'],
+      tasks: ['lint']
     },
     css: {
-      files: ['<%= config.app %>/styles/{,*/}*.css'],
-      options: {
-        livereload: grunt.option('livereload') || true
-      }
+      files: ['<%= config.app %>/styles/{,*/}*.css']
     },
     html: {
       files: ['<%= config.app %>/{,*/}*.html'],
-      tasks: ['processhtml'],
-      options: {
-        livereload: grunt.option('livereload') || true
-      }
+      tasks: ['processhtml:dev']
     },
-    livereload: {
-      options: {
-        livereload: '<%= connect.options.livereload %>'
-      },
+    content: {
       files: [
         '<%= config.app %>/content/**/**'
       ]
