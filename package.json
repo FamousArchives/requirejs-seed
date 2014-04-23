@@ -7,6 +7,7 @@
     "name": "Myles Borins",
     "url": "http://github.com/thealphanerd/"
   },
+  "license": "ISC",
   "repository": {
     "type": "git",
     "url": "git://github.com/thealphanerd/famous-seed.git"
