@@ -26,6 +26,10 @@ module.exports = function (grunt) {
     css: {
       files: ['<%= config.app %>/styles/{,*/}*.css']
     },
+    sass: {
+      files: ['<%= config.app %>/styles/{,*/}*.scss'],
+      tasks: ['sass']
+    },
     html: {
       files: ['<%= config.app %>/{,*/}*.html'],
       tasks: ['processhtml:dev']

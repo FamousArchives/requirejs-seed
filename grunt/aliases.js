@@ -15,6 +15,7 @@ module.exports = function (grunt) {
     grunt.task.run([
       'clean:server',
       'processhtml:dev',
+      'sass:dev',
       'connect:livereload',
       'watch'
     ]);
@@ -24,6 +25,7 @@ module.exports = function (grunt) {
     'clean:dist',
     'lint',
     'processhtml:dist',
+    'sass:dist',
     'useminPrepare',
     'requirejs',
     'concat',
