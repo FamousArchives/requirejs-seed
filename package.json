@@ -1,6 +1,6 @@
 {
   "name": "famous-seed",
-  "description": "A seed project used to keep track of what yo famous scaffolds..",
+  "description": "A seed project used to keep track of what yo famous scaffolds.",
   "version": "0.1.0",
   "homepage": "https://github.com/thealphanerd/famous-seed",
   "author": {
@@ -37,7 +37,7 @@
     "grunt-jscs-checker": "^0.4.1",
     "load-grunt-config": "^0.8.0-beta.1",
     "time-grunt": "^0.3.1",
-    "famous-metrics": "0.0.4"
+    "famous-metrics": "0.0.7"
   },
   "scripts": {
     "test": "grunt test"
