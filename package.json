@@ -2,18 +2,18 @@
   "name": "famous-seed",
   "description": "A seed project used to keep track of what yo famous scaffolds.",
   "version": "0.1.0",
-  "homepage": "https://github.com/thealphanerd/famous-seed",
+  "homepage": "https://github.com/TheAlphaNerd/famous-seed",
   "author": {
     "name": "Myles Borins",
-    "url": "http://github.com/thealphanerd/"
+    "url": "http://github.com/TheAlphaNerd/"
   },
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git://github.com/thealphanerd/famous-seed.git"
+    "url": "git://github.com/TheAlphaNerd/famous-seed.git"
   },
   "bugs": {
-    "url": "https://github.com/thealphanerd/famous-seed/issues"
+    "url": "https://github.com/TheAlphaNerd/famous-seed/issues"
   },
   "engines": {
     "node": ">= 0.10.0"
@@ -37,7 +37,7 @@
     "grunt-jscs-checker": "^0.4.1",
     "load-grunt-config": "^0.8.0-beta.1",
     "time-grunt": "^0.3.1",
-    "famous-metrics": "0.0.7"
+    "famous-metrics": "0.0.9"
   },
   "scripts": {
     "test": "grunt test"
