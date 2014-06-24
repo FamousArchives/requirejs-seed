@@ -7,12 +7,11 @@ module.exports = {
       cwd: '<%= config.app %>',
       dest: '<%= config.dist %>',
       src: [
-        '**/**.{ico,png,txt,jpg,svg,wof,ttf}',
+        'content/**/**.*',
         '.htaccess',
         'images/{,*/}*.webp',
         // '{,*/}*.html',
-        'styles/fonts/{,*/}*.*',
-        'lib/famous/**/**.css'
+        'styles/fonts/{,*/}*.*'
       ]
     }]
   }
