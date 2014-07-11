@@ -2,10 +2,10 @@
   "name": "famous-seed",
   "description": "A seed project used to keep track of what yo famous scaffolds..",
   "version": "0.1.0",
-  "homepage": "https://github.com/TheAlphaNerd/famous-seed",
+  "homepage": "https://github.com/Famous/famous-seed",
   "authors": [{
     "name": "Myles Borins",
-    "url": "http://github.com/TheAlphaNerd/"
+    "url": "http://github.com/Famous/"
   }],
   "main": "app/index.html",
   "moduleType": [
@@ -27,6 +27,6 @@
     "requirejs": "~2.1.11",
     "almond": "~0.2.9",
     "famous-polyfills": "git+https://github.com/Famous/polyfills.git#0.1.1",
-    "famous": "~0.2.1"
+    "famous": "~0.2.2"
   }
 }
