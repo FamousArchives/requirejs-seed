@@ -1,7 +1,7 @@
 {
   "name": "famous-seed",
-  "description": "A seed project used to keep track of what yo famous scaffolds..",
-  "version": "0.2.0",
+  "description": "A seed project used to keep track of what yo famous scaffolds...",
+  "version": "0.1.0",
   "homepage": "https://github.com/Famous/famous-seed",
   "authors": [{
     "name": "Myles Borins",
@@ -27,6 +27,6 @@
     "requirejs": "~2.1.11",
     "almond": "~0.2.9",
     "famous-polyfills": "~0.3.0",
-    "famous": "~0.3.0-rc"
+    "famous": "~0.3.0"
   }
 }
