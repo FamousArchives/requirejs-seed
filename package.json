@@ -1,8 +1,8 @@
 {
-  "name": "famous-seed",
+  "name": "requirejs-seed",
   "description": "A seed project used to keep track of what yo famous scaffolds...",
   "version": "0.3.0",
-  "homepage": "https://github.com/Famous/famous-seed",
+  "homepage": "https://github.com/Famous/requirejs-seed",
   "author": {
     "name": "Myles Borins",
     "url": "http://github.com/Famous/"
@@ -10,16 +10,16 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Famous/famous-seed.git"
+    "url": "git://github.com/Famous/requirejs-seed.git"
   },
   "bugs": {
-    "url": "https://github.com/Famous/famous-seed/issues"
+    "url": "https://github.com/Famous/requirejs-seed/issues"
   },
   "engines": {
     "node": ">= 0.10.0"
   },
   "devDependencies": {
-    
+
     "grunt": "~0.4.4",
     "grunt-bower-requirejs": "^1.1.0",
     "grunt-contrib-clean": "^0.6.0",

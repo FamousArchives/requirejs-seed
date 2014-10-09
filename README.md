@@ -1,7 +1,7 @@
 #famous seed
 > A seed project used to keep track of what yo famous scaffolds...
 
-[![Build Status](https://travis-ci.org/Famous/famous-seed.svg?branch=master)](https://travis-ci.org/Famous/famous-seed) [![Dependency Status](https://david-dm.org/Famous/famous-seed.svg)](https://david-dm.org/Famous/famous-seed) [![devDependency Status](https://david-dm.org/Famous/famous-seed/dev-status.svg)](https://david-dm.org/Famous/famous-seed#info=devDependencies)
+[![Build Status](https://travis-ci.org/Famous/requirejs-seed.svg?branch=master)](https://travis-ci.org/Famous/requirejs-seed) [![Dependency Status](https://david-dm.org/Famous/requirejs-seed.svg)](https://david-dm.org/Famous/requirejs-seed) [![devDependency Status](https://david-dm.org/Famous/requirejs-seed/dev-status.svg)](https://david-dm.org/Famous/requirejs-seed#info=devDependencies)
 
 ##Dependencies
 It is actually quite simple really
